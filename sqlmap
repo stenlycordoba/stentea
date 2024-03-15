@@ -1,0 +1,21 @@
+Oke kali ini saya akan memberikan tutorial Cara Install Sqlmap Di Android dengan aplikasi termux, sebelum lanjut ke tutorialnya saya menjelaskan sedikit apa itu Sqlmap Sqlmap adalah sebuah script eksploitasi yang di tulis dengan bahasa pemerograman python, di mana cara kerja script ini ialah melakukan eksploitasi terhadap website yang memiliki celah terhadap sql injection.
+
+Langkah-Langkah :
+
+ 1.Install dan buka termux
+
+ 2.Ketikkan "apt-get update"
+
+ 3.Install python2.7 dengan command "apt-get install python2"
+
+ 4.Install git dengan command "apt-get install git"
+
+ 5.Clone sqlmap dari github dengan command "git clone https://github.com/sqlmapproject/sqlmap.git" Tunggu sampai selesai
+
+ Pindah ke directory sqlmap ketikan "cd sqlmap"
+
+ Ketikan "python2 sqlmap.py" Jika terinstall akan muncul seperti ini
+
+
+
+Sqlmap sukses terinstall ^_^
